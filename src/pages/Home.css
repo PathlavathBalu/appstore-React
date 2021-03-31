@@ -1,0 +1,283 @@
+  img{
+      width:100%;
+      height:100%;
+  }
+  
+  .myCard{
+    position:relative;
+    border-radius: 15px;
+  }
+  
+  .myOverlay{
+      width: 100%;
+      height: 70px;
+      position: absolute;
+      z-index: 99;
+      bottom: 0px;
+      opacity: 0.8;
+      background: rgb(126, 124, 124);
+      color: #fff;
+      padding: 20px 5px;
+  }
+
+  .ion-content {
+    height: 180px;
+    border-bottom-left-radius: 50% 80px;
+    border-bottom-right-radius: 50% 80px;
+  }
+
+  .gray-box {
+    height: 300px;
+    background-color: #E5E5E5;
+  }
+
+  .green-box {
+    height: 240px;
+    background-color: #009688;
+    border-bottom-left-radius: 50% 80px;
+    border-bottom-right-radius: 50% 80px;
+  }
+
+  .margin-list {
+    margin-top: 10px !important;
+  }
+
+  .title-1 {
+    color: #fff;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+
+  .title-2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0px;
+    margin-left: 25px;
+    text-align: left;  
+    color: #fff;
+  }
+
+  .btn-ganti {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+  border-color: #fff !important;
+  /* White Button Border Color*/
+  --border-color: ('#fff');
+  --border-radius: 0;
+  width: 62px !important;
+  height: 25px !important;
+  border-radius: 0px 0px !important;
+  text-transform: none;
+  }
+
+.search-icon {
+  fill: #fff;
+  padding-top: 4px;
+  /* position: relative;
+    top: 4px;
+    right: -4px; */
+}
+
+.ion-margin {
+  margin: 25px 0 5px 0 !important
+}
+
+.gray-border {
+  border-top:solid 1px rgb(212, 210, 210);
+  border-bottom:solid 1px rgb(212, 210, 210);
+  padding: 10px 0;
+}
+
+.gray-border-bottom {
+  border-bottom:solid 1px rgb(212, 210, 210);
+  padding-bottom: 15px;
+}
+
+.item {
+  border-bottom:solid 1px rgb(212, 210, 210);
+  padding: 15px 0px;
+}
+
+.item-text1 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 4px 2px;
+}
+
+.item-text2 {
+font-size: 14px;
+font-weight: 500;
+line-height: 19px;
+color: #00786D !important;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 4px 2px;
+}
+
+.item-text3 {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+color: #99A4AB !important;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 4px 2px;
+}
+
+.card-title {
+font-style: normal;
+font-size: 14px;
+line-height: 19px;
+color: #FFFFFF;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+/* .card-title {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    white-space: break-spaces;
+    overflow: hidden;
+    text-overflow: unset;
+} */
+
+.list-thumbnail {
+  width: 20%;
+  height: 20%;
+}
+
+.dki-margin {
+  margin-left: 12px;
+}
+
+.gray-color {
+  color: #99A4AB !important;
+}
+
+.black-color {
+  color: #000;
+}
+
+.my-custom-class {
+      position: absolute;
+      height: 400px !important;
+      top: calc(100% - (400px));
+      /* z-index: 995; */
+}
+
+.display-block { 
+  display: block !important;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.margin-5 {
+  margin: 10px 2px 10px 2px;
+}
+
+.btn-modal {
+  --background: #009688 !important;
+  padding: 2px 20px;
+  margin-top: 15px;
+}
+
+ion-searchbar ion-icon {
+  right: 16px !important;
+  left: auto !important;
+}
+
+.test
+{
+  position: absolute;
+    right: 14px;
+    z-index: 1;
+    background-color: #009688;
+    height: 32px;
+    color: white;
+    border-radius: 6px;
+
+}
+
+
+
+.button-native {
+  padding-left: unset;
+  padding-right: unset;
+  padding-inline-start: var(--padding-start);
+  padding-inline-end: var(--padding-end);
+  border: -11px;
+  border-radius: 4px !important;
+}
+
+
+.mdlcls
+{
+  position: relative;
+    top: 6px;
+    right: -7px;
+    font-size: 20px;
+}
+
+.search
+{
+  background-color: #ffff;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.new-background-color{
+  --background: #009688;;
+}
+
+#nvgbutton {
+  text-transform: capitalize;
+  height: 58px;
+  position: relative;
+  top: 23px;
+
+}
+
+.cust-01-page{
+  background: rgba(0, 0, 0, 0.67);
+  display: none;
+  z-index: 9 !important;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
